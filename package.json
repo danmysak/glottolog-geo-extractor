@@ -1,0 +1,34 @@
+{
+  "name": "glottolog-geo-extractor",
+  "version": "1.0.0",
+  "description": "Extracts geographical coordinates of languages from the Glottolog repository.",
+  "main": "index.js",
+  "bin": {
+    "glottolog-geo-extractor": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danmysak/glottolog-geo-extractor.git"
+  },
+  "keywords": [
+    "Glottolog",
+    "language",
+    "family",
+    "latitude",
+    "longitude"
+  ],
+  "author": "Danylo Mysak <danmysak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmysak/glottolog-geo-extractor/issues"
+  },
+  "homepage": "https://github.com/danmysak/glottolog-geo-extractor#readme",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "g": "^2.0.1",
+    "ini": "^1.3.5"
+  }
+}
