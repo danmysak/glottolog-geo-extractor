@@ -1,4 +1,6 @@
-Extracts geographical coordinates of languages from the [Glottolog repository](https://github.com/glottolog/glottolog) (tested on version 4.1).
+# Glottolog Geo Extractor
+
+This script extracts geographical coordinates of languages from the [Glottolog repository](https://github.com/glottolog/glottolog) (tested with version 4.1).
 
 Installation: `npm install -g glottolog-geo-extractor`.
 
@@ -17,6 +19,6 @@ Usage:
     - `{families}` is a list of top-level languoid codes separated with spaces (or just one code);
     - `{languages}` is a list of bottom-level languoid codes separated with spaces (or just one code).
     
-    Such a query will return an array of coordinates (latitude/longitude) of just the provided languages, searching them within the indicated families.
+    Such a query will return an array of coordinates (latitude/longitude) of just the provided languages, searching them within the given families.
 
-For finding out the languoid code of the language or family you are interested in, use [Glottolog] search and examine the last part of the generated URL.
+For finding out the languoid code of the language or family you are interested in, use [Glottolog](https://glottolog.org/) search and examine the last part of the generated URL.
